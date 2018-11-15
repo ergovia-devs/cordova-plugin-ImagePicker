@@ -22,7 +22,7 @@
            id="cordova-plugin-imagepicker"
       version="1.1.5">
 
-    <name>ImagePicker</name>
+    <name>iOSImagePicker</name>
     <description>Cordova ImagePicker Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,ImagePicker</keywords>
@@ -36,15 +36,15 @@
     </engines>
 
     <!-- js module-->
-    <js-module src="www/ImagePicker.js" name="ImagePicker">
-        <clobbers target="ImagePicker" />
+    <js-module src="www/ImagePicker.js" name="iOSImagePicker">
+        <clobbers target="iOSImagePicker" />
     </js-module>
 
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="ImagePicker">
-                <param name="ios-package" value="ImagePicker"/>
+            <feature name="iOSImagePicker">
+                <param name="ios-package" value="iOSImagePicker"/>
             </feature>
         </config-file>
 

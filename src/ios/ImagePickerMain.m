@@ -321,7 +321,7 @@
 // 创建临时保存目录
 - (NSString *)ensureSaveDirectory {
     //NSString *storeDir = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
-    NSString *storeDir = [NSTemporaryDirectory() stringByAppendingPathComponent:@"ImagePicker"];
+    NSString *storeDir = [NSTemporaryDirectory() stringByAppendingPathComponent:@"iOSImagePicker"];
     
     BOOL isDir = TRUE;
     BOOL exists = [[NSFileManager defaultManager] fileExistsAtPath:storeDir isDirectory:&isDir];

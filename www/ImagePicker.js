@@ -43,7 +43,7 @@ module.exports = {
     getPictures: function (onSuccess, onFail, params) {
         var options = Object.assign({}, defaults, params);
 
-        exec(onSuccess, onFail, 'ImagePicker', 'getPictures', [options]);
+        exec(onSuccess, onFail, 'iOSImagePicker', 'getPictures', [options]);
     },
     /**
      * 拍照
