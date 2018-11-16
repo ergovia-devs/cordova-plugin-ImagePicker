@@ -14,7 +14,7 @@
 
 
 
-@interface ImagePicker : CDVPlugin
+@interface iOSImagePicker : CDVPlugin
 
 @property(nonatomic, copy) NSString *callback;
 @property (nonatomic, strong) UIImagePickerController *imagePickerVc;
