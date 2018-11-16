@@ -784,7 +784,7 @@
     NSLog(@"cancel");
     
     if(_callback != NULL) {
-        CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"已取消"];
+        CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"canceled"];
         [self.commandDelegate sendPluginResult:pluginResult callbackId:_callback];
     }
 }
