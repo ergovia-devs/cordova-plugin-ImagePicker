@@ -23,17 +23,17 @@
  */
 - (void)pluginInitialize
 {
-    _enableShowTakePhoto = true;
-    _enableShowTakeVideo = true;
+    _enableShowTakePhoto = false;
+    _enableShowTakeVideo = false;
     _enableSortAscending = false;
     _enablePickingVideo = false;
     _enablePickingImage = true;
-    _enablePickingGif = true;
-    _enablePickingOriginalPhoto = true;
+    _enablePickingGif = false;
+    _enablePickingOriginalPhoto = false;
     _enableShowSheet = false;
     _enableCrop = false;
     _enableCircleCrop = false;
-    _enablePickingMuitlpleVideo = true;
+    _enablePickingMuitlpleVideo = false;
     _enableSelectedIndex = true;
     
     _maxCountTF = 9;
